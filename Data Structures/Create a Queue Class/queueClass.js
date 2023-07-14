@@ -21,7 +21,7 @@ function Queue() {
   }
 
   this.isEmpty = function() {
-    if(collection == 0){
+    if(collection.length == 0){
       return true;
     } else {
       return false;
